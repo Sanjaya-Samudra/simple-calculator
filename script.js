@@ -18,9 +18,15 @@ function add() {
     alert('Addition not implemented yet!');
 }
 
-// Subtraction function - TO BE IMPLEMENTED BY STUDENT 3
+// Subtraction function - IMPLEMENTED BY STUDENT 3
 function subtract() {
-    alert('Subtraction not implemented yet!');
+    const { num1, num2 } = getInputs();
+    if (isNaN(num1) || isNaN(num2)) {
+        displayResult('Please enter valid numbers');
+        return;
+    }
+    const result = num1 - num2;
+    displayResult(result);
 }
 
 // Multiplication function - TO BE IMPLEMENTED BY STUDENT 4

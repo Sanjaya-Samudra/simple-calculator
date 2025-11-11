@@ -28,7 +28,7 @@ function multiply() {
     alert('Multiplication not implemented yet!');
 }
 
-// Division function - TO BE IMPLEMENTED BY STUDENT 5
+// Division function
 javascript
 function divide() {
     const { num1, num2 } = getInputs();

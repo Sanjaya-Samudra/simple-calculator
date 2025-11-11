@@ -35,10 +35,7 @@ function subtract() {
     displayResult(result);
 }
 
-// Multiplication function - TO BE IMPLEMENTED BY STUDENT 4
-function multiply() {
-    alert('Multiplication not implemented yet!');
-    ```javascript
+// Multiplication function
 function multiply() {
     const { num1, num2 } = getInputs();
     if (isNaN(num1) || isNaN(num2)) {
@@ -47,9 +44,6 @@ function multiply() {
     }
     const result = num1 * num2;
     displayResult(result);
-}
-```
-
 }
 
 // Division function

@@ -52,7 +52,18 @@ function multiply() {
 
 }
 
-// Division function - TO BE IMPLEMENTED BY STUDENT 5
+// Division function
+javascript
 function divide() {
-    alert('Division not implemented yet!');
+    const { num1, num2 } = getInputs();
+    if (isNaN(num1) || isNaN(num2)) {
+        displayResult('Please enter valid numbers');
+        return;
+    }
+    if (num2 === 0) {
+        displayResult('Cannot divide by zero!');
+        return;
+    }
+    const result = num1 / num2;
+    displayResult(result);
 }

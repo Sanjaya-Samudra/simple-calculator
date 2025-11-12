@@ -61,4 +61,3 @@ function divide() {
     const result = num1 / num2;
     displayResult(result);
 }
-
